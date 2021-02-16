@@ -47,10 +47,6 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.droibit.sample'
-                artifactId = 'library-2'
-                version = '1.0.0'
-
                 pom {
                     licenses {
                         license {
